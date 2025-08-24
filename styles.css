@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: #191308;
+    text-shadow: 0 0 1px #c9fbff;
+    color: #c9fbff;
+    font-family: "Original Surfer", sans-serif;
+
+}
+
+.hero-section {
+    background-image: url("images/sphinx.jpg");
+    background-size: cover;
+    color: #c9fbff;
+    display: flex;
+    object-position: center;
+    height: 500px;
+    margin: 0;
+}
+
+.main-txt {
+    width: 200px;
+    height: 75px;
+    /* text-align: center;
+    align-items: center; */
+    justify-content: center;
+    margin: 100px 50px 30px 500px;
+    background-color: #322a26;
+    border: 5px solid #322a26;
+    border-radius: 20px;
+    padding: 10px 4px;
+    
+}
+
+.sub-txt {
+    /* width: 200px; */
+    width: 200px;
+    height: 75px;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+    margin: 100px 50px 30px 50px;
+    background-color: #322a26;
+    border: 5px solid #322a26;
+    border-radius: 20px;
+    padding: 10px 4px;
+}
+
+#activities-section {
+    display: flex;
+    margin: 40px auto;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+
+    /* columns: 3; */
+    
+}
+
+.vac {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #c9fbff;
+    border-radius: 25%;
+}
+
+.card {
+    width: 500px;
+    height: 200px;
+    background: #322a26;
+    display: flex;
+    text-align: center;
+    margin: 40px auto;
+    padding: 40px 20px;
+    justify-content: space-around;
+    border-bottom: 4px solid #c9fbff;
+    border-radius: 30px;
+}
+
+.avatar {
+    border: 1px solid #000000;
+    border-radius: 25%;
+    
+}
